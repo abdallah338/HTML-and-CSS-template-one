@@ -1,0 +1,783 @@
+:root{  
+            --maincolor:#37a;
+            --secandarycolor:rgb(60, 167, 255);
+            
+}
+
+* { box-sizing: border-box;}
+
+  body { width: 100%;}
+
+.container{    width: 100%; 
+               display:flex;
+               justify-content:center; 
+               align-items:center; 
+               flex-direction: row;
+               flex-wrap: nowrap; }     
+   
+              
+  i{   font-size: 40px;  color:var(--maincolor)  ;}
+
+
+
+ 
+ 
+ 
+                  
+   
+  
+  
+ 
+.landing{    background-image: url( ../imgs/infinite-loop-01.jpg  )  ; 
+             background-size: cover; 
+             background-attachment: fixed; 
+             height: 100vh;  
+             margin-right: 8px;           
+             width: 210vh;  
+             display: flex;
+             justify-content: flex-start;
+             align-items: flex-start;
+             padding:0 1%  ;
+             color: white; 
+             font-size: 15px ;       
+             font-family: 'Open Sans', Arial, sans-serif;
+             flex-wrap:nowrap;       
+             position: relative;
+             z-index: 10;   
+             align-items: center; }
+ 
+.landing h2 { display: flex ; 
+              position: absolute;  
+              justify-content: center;  
+              align-items: center;  
+              flex-direction: row;  
+              top: 3%;  
+              left: 20px;
+              gap:10px; 
+              text-align: left;}    
+ 
+   h2:hover{ color:var(--secandarycolor) ;   transition:.5s ;}             
+   
+    span {    justify-content: center;
+              align-items: center;  
+              position: absolute;
+              top: 20%;  
+              left: 20%;
+              right:  20%; 
+              display: flex; 
+              text-align: end;
+              flex-direction: column;
+              font-family: 'Open Sans', Arial, sans-serif;  }
+ 
+
+ .main{    font-size: 60px;  height: 39px;}
+
+ .menu {  color: white;  
+          display: flex;  
+          justify-content: center;  
+          align-items: center;  
+          flex-direction: row;  
+          flex-wrap: nowrap;  
+          position: absolute;
+          top: 5%;  
+          right: 3%;
+          z-index: 10;  
+          font-size: 20px; 
+          gap:70px; 
+          text-align: left;
+          font-family: "Raleway", sans-serif;
+          font-weight: 500;
+          letter-spacing: 1px;  
+          scroll-behavior: smooth;}
+ 
+
+
+  .one{   font-family: "Raleway", ui-sans-serif;font-size: x-large; }
+
+  .menu div:hover{     background-color:var(--maincolor) ;  
+                       transition:.4s;
+                       padding: 10px 35px;
+                       position: relative; 
+                       margin :-10px -35px;
+                       cursor: pointer; 
+                       flex-basis: auto;  color:white ;}
+
+   span :nth-of-type(2) ,:nth-of-type(3){  font-size: 20px;}
+
+   .box{   background-color:white;
+           margin: 6% 0 0 1% ;
+           align-items: flex-start;
+           justify-content: space-between;
+           padding:3% 7% 3% 7%  ;
+           color: gray; 
+           font-size: 25px ;
+           font-family: 'Open Sans', Arial, sans-serif;
+           flex-basis: 49%;      
+           position:relative;            
+          font-weight: 60;} 
+
+.middle{   color: gray;
+           font-size: 20px;    
+           display: flex;
+           flex-direction: row;          
+           margin-left: 4%;
+           flex-wrap: wrap;
+           z-index: 100;  }
+
+.star{     margin: 6%  1% 0 0 ;
+           padding:3% 7% 3% 3%;
+           font-family: 'Open Sans', Arial, sans-serif;
+           font-weight: 60;
+           word-break: break-all;
+           line-height: 2.8; }
+
+.star h2 {  font-family: "Raleway", sans-serif;  }
+  
+.middle div p{     font-size: 20px; line-height: 1.8;  }
+
+.top{   color: var(--maincolor);
+        margin-top: -50px; 
+        font-size: 35px; 
+        font-family: 'Arial', sans-serif;
+        font-weight: 510;}  
+
+.icons{ font-size: 55px; margin: -30px -90px;    } 
+
+div.buttons {   display: grid;
+                grid-template-columns: repeat(6, 1fr);  
+                grid-template-rows: repeat(1 , 1fr);              
+                gap: 36%;  
+                margin-right: 10%;  
+                margin-left: 9%;
+                max-width: 600px; }
+
+div  button{
+                background-color: var(--maincolor);
+                color: white;
+                border: none;
+                padding: 15px 25px;
+                font-size: 20px;
+                border-radius: 6px;
+                cursor: pointer;
+                transition:  0.4s;
+                white-space: nowrap;
+                margin:   0 268px 100px  2px}   
+   
+              
+              
+              
+              
+             
+  
+div.buttons a:hover { background-color: rgb(121, 197, 255);}
+ 
+ 
+div .buttons button  :nth-child(1) { grid-column: 1;  }
+
+div .buttons  button  :nth-child(2) { grid-column: 6; }
+ 
+
+ 
+
+button:hover{   background-color: rgb(121, 197, 255);    transition: 0.3s;  }
+
+a {             text-decoration: none; color: var(--secandarycolor) ; }
+
+a:hover {       color: red;  transition: .3s;}
+  
+.Testimonials { background-image:url(../imgs/infinite-loop-02.jpg)  ;
+                background-attachment: fixed;   
+                background-position: center center;   
+                background-size: cover ;
+                z-index: 1;      
+                font-size: 25px ;
+                font-family: 'Open Sans', Arial, sans-serif;
+                padding: 80px 7% ;
+                position: relative;
+                display: grid;
+                width: 210vh;  
+                height: 170vh; ;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-left:  -46px;
+                flex-direction: column;
+                padding: 13%;  }
+
+
+    .Testimonials div div:nth-child(1) {  font-size: 26px;  
+                                          color: white; 
+                                          justify-content:   flex-start;
+                                          margin-top: -730px;
+                                          padding: 15%;
+                                          text-align: center; 
+                                          margin-left: 40px ;
+                                          margin-right: 40px; 
+                                          margin-bottom: 40px;   
+                                          display: grid; 
+                                          position: absolute; 
+                                          flex-wrap: wrap;
+                                          flex-direction: column;
+                                          font-family:  "Raleway", sans-serif;
+                                          font-weight: 10; }
+
+
+.Testimonials p{     color: white; 
+                     justify-content: center;  
+                     flex-wrap: wrap; 
+                     font-size: 16px ;
+                     padding: 0 30px; } 
+  
+
+ .Testimonials  img{  border-radius: 50%; 
+                      width: 120px; 
+                      height: 120px; 
+                      display: block; 
+                      margin: 50px 20px 2px 68px;      } 
+
+.Testimonials p:nth-child(4) {margin-left: 60px;    }
+
+.Testimonials .container{  margin-top:  10px    }
+  
+.Gallery {    background-color: white;  
+                position: relative;
+                display: grid;
+                width: 210vh;   
+                height: 170vh; ;
+                flex-wrap: wrap;
+                margin-left:  -46px;
+                margin-top:  50px;     
+                text-align: center;    
+                z-index: 1;     }
+
+.Gallery .container div img {   width: 31vh;
+                                height: 48vh;   
+                                justify-content: space-around;
+                                display:flex;   
+                                margin-left: 30px; }
+
+.Gallery .container div img:hover {  background-color: rgba(0, 0, 0, 0.027);  transition: .3s;  cursor: pointer; } 
+
+.Gallery .frist{                       grid-column: span 2;
+                                          font-size: 26px;  
+                                          color: gray ;
+                                          justify-content:   flex-start;
+                                          margin-top: -730px;
+                                          padding: 15%;
+                                          text-align: center; 
+                                          margin-left: 40px ;
+                                          margin-right: 40px; 
+                                          margin-bottom: 40px;   
+                                          display: grid; 
+                                       
+                                          position: absolute; 
+                                          flex-wrap: wrap;
+                                          flex-direction: column;
+                                          font-family:  "Raleway", sans-serif;
+                                          font-weight: 10; }
+
+ .Gallery p{         justify-content: center;  
+                     flex-wrap: wrap; 
+                     font-size: 16px ;
+                     padding: 0 30px;  } 
+
+
+.Gallery .container{  margin-top:  10px    }
+
+
+.Gallery .container div p{    position: absolute; 
+                              background-color: rgba(44, 1, 38, 0.425); 
+                              align-content: flex-end;
+                              color: white;     
+                              display: flex; 
+                              font-family:  "Raleway", sans-serif;
+                              width: 31vh;
+                              height: 48vh;
+                              padding: 20px 0 0 0;
+                              margin-left: 30px; 
+                              margin-top: auto;
+                              padding:0  5% 8px 3%;
+                              font-weight: 350;
+                              font-size: 20px; 
+                              text-align: left;
+                              line-height: normal;
+                              border-bottom: var(--secandarycolor) solid 10px;  
+                              opacity: 0;
+                              transform: translateY(30px) scale(0.95);  
+                              transform-origin: top;
+                              transition: .5s;
+                              transform :0.6s ease;
+                              pointer-events: none;}
+
+
+.Gallery .container div:hover p{         opacity: 1;
+                                         transform: translateY(0) scale(1);  
+                                         pointer-events: auto;}
+
+.Gallery .container div:hover h2{  color: var(--maincolor);}
+        
+    
+ 
+.Contact_us {  padding-top:7% ;  
+               background-image: url(../imgs/infinite-loop-03.jpg)  ;
+               background-attachment: fixed;  
+               background-position: center center;   
+               background-size: cover ;
+               font-size: 25px ;
+               font-family: 'Open Sans', Arial, sans-serif;;
+               width: 210vh;
+               height: 150vh; ;
+               margin-left:  -46px;
+               text-align: center;
+               color: white;     } 
+
+ 
+.Contact_us  div .frist{    font-size: 26px;  
+                            padding: 15%; 
+                            margin-bottom: 55%;
+                            margin-left: 5px ;
+                            margin-right: 5px;
+                            position: absolute; 
+                                    
+                                         }
+ 
+.Contact_us   .container .frist p{ font-size: 20px;  line-height: 40px; margin: auto -30px; }
+
+input  {      background-color: transparent; 
+              padding:  10px 5%;
+              position: relative;
+              border-radius: 10px ;
+              border: 2px solid white;
+              color: white;
+              font-size: 20px;
+              margin: 10px 0;
+              width: 70vh;
+              display: block;}
+
+
+form button{   background-color: var(--maincolor); 
+               border: none; 
+               padding: 15px 25px;
+               font-size: 20px;
+               cursor: pointer; 
+               margin-top: 10px; 
+               border-radius: 9px ;
+               padding:  10px 5%;
+               width: 250px; 
+               margin-left: auto;  }
+  
+ form button:hover{ background-color: var(--secandarycolor); transition: .3s; }
+
+.Message{ height: 40vh; justify-content: flex-end; padding:  700px 100px  -100px;  }
+ 
+form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
+
+.info {  margin-top: -40px; font-size: 20px;  ;margin-left: -100px;        }
+  
+.info  i{    justify-content: center;   position:absolute;  margin-left: -160px; font-size: 30px;   color: white;   }
+  
+.fa-solid    {  font-size: 20px; }
+
+.info nav{ margin:40px 20px;   }
+  
+.info nav:hover{ color: var(--secandarycolor) ; transition: .3s; } 
+  
+.info nav i:hover{ color:var(--secandarycolor); transition: .3s; }  
+
+.footer{   display: block;  font-family: 'Open Sans', Arial, sans-serif;    margin-top: 1%;}
+
+.footer a {     color: white; }  
+
+.footer a:hover{ color:var(--secandarycolor); }
+ 
+ 
+.bars  {       display: flex;  align-content: end; }
+
+.bars i{       font-size: 30px;
+               color: white ;   
+               justify-content: center; 
+               padding: 3px 20px;
+               display: flex;
+               bottom :300px ; 
+               right: 5%;
+               position: relative; 
+               border-radius: 2%; } 
+   
+   .bars ul{                  opacity: 0; 
+                              transform: translateY(30px) scale(0.95);  
+                              transform-origin: top;
+                              transition: .5s;
+                              transform :0.6s ease;
+                              pointer-events: none; 
+                              list-style: none; 
+                              width: 90vh;
+                              height: 40vh; 
+                              margin-right: 210px;
+                              padding-top: 1%;
+                              padding-bottom: 1%;
+                              margin-top: -300px;
+                              margin-left: 411px; 
+                              padding-right: 0%;}  
+
+    .bars ul li{  height: 7vh;    justify-content: center; display: flex;   }  
+    
+    .list{   background-color: rgb(255, 12, 12);color:gray;  padding: auto 200px  ;  }
+    
+ 
+ 
+
+
+ @media (max-width: 768px) {  
+ 
+  .container { 
+              flex-direction: column ;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              width: 100% ;
+              margin: 0 auto ;
+              padding: 0 10px;}
+
+  .landing {  background-size: cover;
+              background-position: center center;                     
+              width:  100% ;
+              height:   110vh ;
+              flex-direction: row ;
+              flex-wrap: nowrap;}
+ 
+            
+            
+
+  .landing .container h2{ margin: 10px  auto auto -10px; left: 9%; }
+   
+  .bars{  position: relative; cursor: pointer;}
+
+ .bars i{border:  2px solid white; }
+
+ .bars ul {
+                      position: absolute;
+                      background: white;
+                      list-style: none;
+                      border-radius: 8px;
+                      box-shadow: 0 4px 8px rgba(0,0,0,0.2);}
+
+.bars ul li {         padding: 3px 20px;  text-align: left;}
+
+.bars ul li a {
+                      color: black; 
+                      text-decoration: none;
+                      display: block;}
+
+.bars ul li:hover {   background: var(--maincolor);}
+
+.bars:hover ul {      opacity: 1;
+                      transform: translateY(0) scale(1);  
+                      pointer-events: auto;
+                      display: block;  }
+
+.bars ul li a {
+                      color: gray;         
+                      text-decoration: none;  
+                      display: block;
+                      font-size: 20px;
+                      font-family: "Raleway", sans-serif;
+                      padding: 10px 10px 10px 270px;}
+
+.bars ul li a:hover { color: var(--secandarycolor);   background: rgba(0,0,0,0.05);  }
+
+ 
+
+   
+.menu {             display: none ;
+                    flex-direction: column;
+                    gap: 15px ;
+                    position: static ;
+                    font-size: 18px ;
+                    margin-top: 50px;}
+
+.menu div {       margin: 0 ; padding: 10px 0;}
+
+.menu div:hover { padding: 10px 0; margin: 0;}
+ 
+ 
+
+.middle {         background-image: none;
+                  position: static;
+                  flex-direction: column;
+                  margin: 20px 0 ;
+                  padding: 0 30px;
+                  width: auto ;}
+
+ 
+
+
+  .star {
+                font-size: 24px;
+                width: 100%;
+                margin: 0 0 60px 0;
+                padding: 0 10px;
+                line-height: 1.4 ;}
+
+  .in{ margin: 0;}
+  
+  .top:not(.in) { margin-left: 80px;  }
+
+  .box {
+             flex-basis: 100%;
+             margin: 20px 0;
+             padding: 20px 1px 15px;
+             font-size: 18px;
+             width: 100%; }
+
+  .icons   { margin-left: 10px;
+             color: var(--maincolor);
+             font-size: 46px; 
+             display: block ; 
+             margin-top: auto;
+             margin-bottom: 8px;} 
+ 
+  .buttons { gap: 160px !important;} 
+
+  div button  {  display: block;  
+                 margin-left:   -50px;
+                 width: 40%;}
+
+
+  .Testimonials { background-size:cover;
+                  background-position: center center;
+                  background-image: url(../imgs/infinite-loop-02.jpg);
+                  width: auto;
+                  height:100%;
+                  margin-left: 0;
+                  padding: 40px 100px;
+                  display: block;}
+
+  .Testimonials div div:nth-child(1) {
+    position: static;
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center; }
+
+  .Testimonials img {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    display: block;}
+  
+
+.Gallery .photos {position: relative;}
+
+.Gallery .photos p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(44, 1, 38, 0.425);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition:  0.4s;}
+
+  .Gallery .photos:hover p {opacity: 1; }
+
+  
+
+.Gallery { 
+      margin-bottom: 400px;
+      width: 100% ;  
+      height: auto;
+      margin-left: 0;
+      padding: 17px 10px;
+      display: block;}   
+
+  .Gallery .container div img {
+                            width: 50vh;
+                            height: 80vh;
+                            margin: 10px;
+                            display: block; }
+
+    .Gallery .container div:hover p {  
+                            display: block; 
+                            font-family:  "Raleway", sans-serif;
+                            margin-top: 23px;
+                            height:95% ; 
+                            width: 94%;
+                            margin-left: 8px;    
+                            padding: -200px 20px 0;}
+
+.Gallery .container div p{ 
+                            text-align: center ; 
+                            padding:0  50% 80px 10% ;
+                            font-weight: 250 ;
+                            font-size: 30px; }
+
+  .Gallery .frist {
+                position: static ;
+                margin: 0 0 20px 0;
+                padding: 0;
+                font-size: 20px;
+                text-align: center;}
+
+   .Contact_us {font-size: 20px; 
+                background-size: cover;      
+                background-image: url(../imgs/infinite-loop-03.jpg);
+                width: 100%;
+                height: 100%;
+                margin-left: 12px;
+                margin-top: -190px;
+                padding: 20px 10px;
+                display: block;
+                text-align: center;}
+ 
+.Contact_us div .frist{  
+                         margin:50px auto 20px ;
+                         padding: 0 34px;
+                         font-size: 29px ; 
+                         font-weight: 200;
+                         text-align: center ;
+                         position: static ;}
+
+.Contact_us div .frist p{ font-size: 20px ; margin: auto -30px; line-height: 50px ; }
+
+   
+
+form {  
+          margin: 60px auto 10px ;
+          width: 90%;}
+
+  input {
+            width: 100% ;
+            height: 10vw ;
+            font-size: 28px ;
+            color: white ;
+            margin: 23px -23px 10px -12px ;}
+
+  .Message {
+            height: 290px;
+            padding: 10px;}
+
+  form button {
+            width: 50% ;
+            padding: 15px ;
+            font-size: 28px ;
+            margin: 60px -3px 20px ;}
+
+  .info {
+            margin: 20px 10px auto -20px ;
+            font-size: 18px ;
+            position: static ;
+            text-align: center ;}
+
+  .info i {
+              margin: 4px 0px 0 -250px ;
+              font-size: 44px;}
+
+.info nav p { 
+              margin: 30px 0px 0 -70px;
+              font-size: 28px ; }
+ .info nav  {
+              margin-left: 70px ;
+              margin-top: 60px ; }
+  .footer {
+              margin: 400px auto ;
+              font-size: 26px;
+              text-align: center ;
+              margin-bottom: 20px ;
+              margin-left: 0 ;
+              margin-right: 0  }
+}   
+                 
+
+
+ 
+
+@media (min-width: 769px)  {  .bars {display: none; } 
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+  
+   
+ 
+
+  .landing {  background-size: cover; width: 108%;  }
+
+  .landing .container h2 { margin-right: 0;  padding: 0%; top: .5%;  }
+    
+
+
+  .menu a {  margin-left: -20px ;   }
+  
+  .menu {  margin-right: 0px; margin-top: -12px;  }
+  
+
+  .middle { width: 100%;  }
+   
+  
+  .box p{ padding: auto 5500px ; }
+  
+ 
+
+ 
+  
+  div.buttons {
+                   display: grid;
+                   grid-template-columns: repeat(6, 1fr);  
+                   grid-template-rows: repeat(1 , 1fr);              
+                   gap: 17%;  
+                   margin-right: 10%;  
+                   margin-left: 6%;
+                  max-width: 600px;}  
+
+
+  .Testimonials {   width: 140%;
+                   padding: 80px;
+                   height:  140vh;  }
+
+  .Testimonials div p:not(:nth-child(1))  {  font-size: 18px ;
+                                             margin: auto 0px;
+                                             font-size: 17px ;}
+
+  .frist h2 {    justify-content: center;
+                 display: flex;
+                 margin-left: 11%;
+                 margin-top: 200px; }  
+  
+  .frist p {   margin: auto -3%    ;}  
+
+ .Testimonials div img  {  margin-top: 100px; margin-bottom: 50px;  }
+  
+  .Gallery .container {   display: grid;
+                          grid-template-columns: repeat(3, auto); 
+                            gap: 10px; }
+
+ 
+.Gallery .container > div:nth-of-type(1) { grid-column: 1; top: 450px; width: 100%; padding: 10%; font-size: 25px;  }   
+.Gallery .container > div:nth-of-type(2) { grid-column: 1; }  
+.Gallery .container > div:nth-of-type(3) { grid-column: 2;margin-top: 360px;  }
+.Gallery .container > div:nth-of-type(4) { grid-column: 3;  } 
+.Gallery .container > div:nth-of-type(5) { grid-column: 3; margin-top: -200px;}  
+.Gallery .container > div:nth-of-type(6) { grid-column: 1;   margin-top: -400px; }  
+ 
+.Gallery .container img {   width: 100%; max-width: 250px;  border-radius: 8px;}
+
+
+
+.Contact_us {  width: 200%;   height: auto;   }
+
+.Contact_us div .frist {  margin-bottom: 80%; }
+
+ form { margin-right: 300px ;  margin-top: 23%; }
+
+.info i     { margin-left: -250px;      }
+  
+.info nav p {  margin-left: -170px;     }
+  
+  
+}  
+
+@media  (min-width: 1025px) { 
+  .landing   { width: 100%; } 
+.Contact_us { height: 100%;}    }
