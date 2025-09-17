@@ -8,7 +8,7 @@
 
   body { width: 100%; user-select: none;}
 
-.container{    width: 100%; 
+.container{    width: 100%;  user-select: none;
                display:flex;
                justify-content:center; 
                align-items:center; 
@@ -29,7 +29,8 @@
   
  
 .landing{    background-image: url( ../imgs/infinite-loop-01.jpg  )  ; 
-             background-size: cover; 
+             background-size: cover;
+             user-select: none;
              background-attachment: fixed; 
              height: 100vh;  
              margin-right: 8px;           
@@ -58,7 +59,8 @@
  
    h2:hover{ color:var(--secandarycolor) ;   transition:.5s ;}             
    
-    span {    justify-content: center;
+    span {    user-select: none;
+              justify-content: center;
               align-items: center;  
               position: absolute;
               top: 20%;  
@@ -116,7 +118,8 @@
            position:relative;            
           font-weight: 60;} 
 
-.middle{  color: rgb(77, 77, 77);
+.middle{   user-select: none;
+           color: rgb(77, 77, 77);
            font-size: 20px;    
            display: flex;
            flex-direction: row;          
@@ -189,6 +192,7 @@ a:hover {       color: red;  transition: .3s;}
                 background-attachment: fixed;   
                 background-position: center center;   
                 background-size: cover ;
+                user-select: none;
                 z-index: 1;      
                 font-size: 25px ;
                 font-family: 'Open Sans', Arial, sans-serif;
@@ -238,7 +242,8 @@ a:hover {       color: red;  transition: .3s;}
 
 .Testimonials .container{  margin-top:  10px    }
   
-.Gallery {    background-color: white;  
+.Gallery {      user-select: none;
+                background-color: white;  
                 position: relative;
                 display: grid;
                 width: 210vh;   
@@ -317,7 +322,8 @@ a:hover {       color: red;  transition: .3s;}
         
     
  
-.Contact_us {  padding-top:7% ;  
+.Contact_us {  user-select: none;
+               padding-top:7% ;  
                background-image: url(../imgs/infinite-loop-03.jpg)  ;
                background-attachment: fixed;  
                background-position: center center;   
@@ -700,7 +706,8 @@ form {
 @media (min-width: 769px) and (max-width: 1024px) { 
   
    
- 
+   body { user-select: none;}
+   
 
   .landing {  background-size: cover; width: 108%;  }
 
@@ -782,3 +789,4 @@ form {
   .landing   { width: 100%; } 
 
 .Contact_us { height: 100%;}    }
+
