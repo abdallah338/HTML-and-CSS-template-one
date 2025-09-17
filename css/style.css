@@ -1,12 +1,12 @@
 :root{  
-            --maincolor:#37a;
+            --maincolor:rgb(12, 108, 182);
             --secandarycolor:rgb(60, 167, 255);
             
 }
 
 * { box-sizing: border-box;}
 
-  body { width: 100%;}
+  body { width: 100%; user-select: none;}
 
 .container{    width: 100%; 
                display:flex;
@@ -116,7 +116,7 @@
            position:relative;            
           font-weight: 60;} 
 
-.middle{   color: gray;
+.middle{  color: rgb(77, 77, 77);
            font-size: 20px;    
            display: flex;
            flex-direction: row;          
@@ -780,4 +780,5 @@ form {
 
 @media  (min-width: 1025px) { 
   .landing   { width: 100%; } 
+
 .Contact_us { height: 100%;}    }
