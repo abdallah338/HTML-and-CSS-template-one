@@ -435,7 +435,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
   .landing {  background-position: center center;                     
                height:   110vh ;
                
-              width:  155vw ;
+              width:  175vw ;
               min-width:  125vw ;
               flex-direction: row ;
               flex-wrap: nowrap;}
@@ -537,11 +537,10 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
   .Testimonials { background-size:cover;
                   background-position: center center;
                   background-image: url(../imgs/infinite-loop-02.jpg);
-                  width: auto;
+                  width: 155vw;
                   height:100%;
                   margin-left: 0;
-                  padding: 40px 100px;
-                  display: block;}
+                  padding: 40px 100px; }
 
   .Testimonials div div:nth-child(1) {
     position: static;
@@ -614,7 +613,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
    .Contact_us {font-size: 20px; 
                 background-size: cover;      
                 background-image: url(../imgs/infinite-loop-03.jpg);
-                width:  150vw ;
+                width:  170vw ;
                 height: 100%;
                 margin-left: 12px;
                 margin-top: -190px;
