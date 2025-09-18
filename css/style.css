@@ -116,7 +116,7 @@
            position:relative;            
           font-weight: 60;} 
 
-.middle{   color: rgb(77, 77, 77);
+.middle{  color: rgb(27, 27, 27);
            font-size: 20px;    
            display: flex;
            flex-direction: row;          
@@ -775,4 +775,5 @@ form {
   .landing   { width: 100%; } 
 
 .Contact_us { height: 100%;}    }     
+
 
