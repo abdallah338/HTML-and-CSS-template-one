@@ -6,9 +6,9 @@
 
 * { box-sizing: border-box;}
 
-  body { width: 100%; user-select: none;}
+  body { width: 100%;user-select: none;}
 
-.container{    width: 100%;  user-select: none;
+.container{    width: 100%; 
                display:flex;
                justify-content:center; 
                align-items:center; 
@@ -29,8 +29,7 @@
   
  
 .landing{    background-image: url( ../imgs/infinite-loop-01.jpg  )  ; 
-             background-size: cover;
-             user-select: none;
+             background-size: cover; 
              background-attachment: fixed; 
              height: 100vh;  
              margin-right: 8px;           
@@ -59,8 +58,7 @@
  
    h2:hover{ color:var(--secandarycolor) ;   transition:.5s ;}             
    
-    span {    user-select: none;
-              justify-content: center;
+    span {    justify-content: center;
               align-items: center;  
               position: absolute;
               top: 20%;  
@@ -118,8 +116,7 @@
            position:relative;            
           font-weight: 60;} 
 
-.middle{   user-select: none;
-           color: rgb(77, 77, 77);
+.middle{   color: rgb(77, 77, 77);
            font-size: 20px;    
            display: flex;
            flex-direction: row;          
@@ -192,7 +189,6 @@ a:hover {       color: red;  transition: .3s;}
                 background-attachment: fixed;   
                 background-position: center center;   
                 background-size: cover ;
-                user-select: none;
                 z-index: 1;      
                 font-size: 25px ;
                 font-family: 'Open Sans', Arial, sans-serif;
@@ -242,8 +238,7 @@ a:hover {       color: red;  transition: .3s;}
 
 .Testimonials .container{  margin-top:  10px    }
   
-.Gallery {      user-select: none;
-                background-color: white;  
+.Gallery {    background-color: white;  
                 position: relative;
                 display: grid;
                 width: 210vh;   
@@ -322,8 +317,7 @@ a:hover {       color: red;  transition: .3s;}
         
     
  
-.Contact_us {  user-select: none;
-               padding-top:7% ;  
+.Contact_us {  padding-top:7% ;  
                background-image: url(../imgs/infinite-loop-03.jpg)  ;
                background-attachment: fixed;  
                background-position: center center;   
@@ -430,22 +424,18 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
     
  
  
-
-
- @media (max-width: 768px) {  
+@media (max-width: 768px) {  
  
+   body{    width: auto;}
+
   .container { 
               flex-direction: column ;
               flex-wrap: wrap;
               align-items: center;
-              justify-content: center;
-              width: 100% ;
-              margin: 0 auto ;
-              padding: 0 10px;}
+              justify-content: center;}
 
-  .landing {  background-size: cover;
-              background-position: center center;                     
-              width:  100% ;
+  .landing {  background-position: center center;                     
+              width:  auto ;
               height:   110vh ;
               flex-direction: row ;
               flex-wrap: nowrap;}
@@ -506,8 +496,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
  
  
 
-.middle {         background-image: none;
-                  position: static;
+.middle {         position: static;
                   flex-direction: column;
                   margin: 20px 0 ;
                   padding: 0 30px;
@@ -516,8 +505,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
  
 
 
-  .star {
-                font-size: 24px;
+  .star {       font-size: 24px;
                 width: 100%;
                 margin: 0 0 60px 0;
                 padding: 0 10px;
@@ -527,8 +515,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
   
   .top:not(.in) { margin-left: 80px;  }
 
-  .box {
-             flex-basis: 100%;
+  .box {     flex-basis: 100%;
              margin: 20px 0;
              padding: 20px 1px 15px;
              font-size: 18px;
@@ -548,14 +535,9 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
                  width: 40%;}
 
 
-  .Testimonials { background-size:cover;
-                  background-position: center center;
-                  background-image: url(../imgs/infinite-loop-02.jpg);
+  .Testimonials { background-position: center center;
                   width: auto;
-                  height:100%;
-                  margin-left: 0;
-                  padding: 40px 100px;
-                  display: block;}
+                  height:100%; }
 
   .Testimonials div div:nth-child(1) {
     position: static;
@@ -591,7 +573,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
   
 
 .Gallery { 
-      margin-bottom: 400px;
+      margin-bottom: 20px;
       width: 100% ;  
       height: auto;
       margin-left: 0;
@@ -613,33 +595,23 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
                             margin-left: 8px;    
                             padding: -200px 20px 0;}
 
-.Gallery .container div p{ 
-                            text-align: center ; 
+.Gallery .container div p{  text-align: center ; 
                             padding:0  50% 80px 10% ;
                             font-weight: 250 ;
                             font-size: 30px; }
 
-  .Gallery .frist {
-                position: static ;
-                margin: 0 0 20px 0;
-                padding: 0;
-                font-size: 20px;
-                text-align: center;}
+  .Gallery .frist {  position: static ;
+                     margin: 0 0 20px 0;
+                     padding: 0 20px;
+                     font-size: 23px;}
 
-   .Contact_us {font-size: 20px; 
-                background-size: cover;      
-                background-image: url(../imgs/infinite-loop-03.jpg);
-                width: 100%;
-                height: 100%;
-                margin-left: 12px;
-                margin-top: -190px;
-                padding: 20px 10px;
-                display: block;
-                text-align: center;}
+   .Contact_us { width: auto;  
+                 height: auto;
+                 padding: 20px 28px; }
  
 .Contact_us div .frist{  
                          margin:50px auto 20px ;
-                         padding: 0 34px;
+                         padding: 0 44px;
                          font-size: 29px ; 
                          font-weight: 200;
                          text-align: center ;
@@ -649,9 +621,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
 
    
 
-form {  
-          margin: 60px auto 10px ;
-          width: 90%;}
+form {    margin: 60px auto 10px ;  width: 90%;}
 
   input {
             width: 100% ;
@@ -693,11 +663,7 @@ form {
               margin-bottom: 20px ;
               margin-left: 0 ;
               margin-right: 0  }
-}   
-                 
-
-
- 
+}             
 
 @media (min-width: 769px)  {  .bars {display: none; } 
 
@@ -706,10 +672,10 @@ form {
 @media (min-width: 769px) and (max-width: 1024px) { 
   
    
-   body { user-select: none;}
-   
+  body { width: 95vw;}
+  
 
-  .landing {  background-size: cover; width: 108%;  }
+  .landing {   width:105%;  }
 
   .landing .container h2 { margin-right: 0;  padding: 0%; top: .5%;  }
     
@@ -720,12 +686,12 @@ form {
   .menu {  margin-right: 0px; margin-top: -12px;  }
   
 
-  .middle { width: 100%;  }
+  
    
   
-  .box p{ padding: auto 5500px ; }
+  .box p{ padding: auto 100px ;  }
   
- 
+  .box  { margin: auto 2px auto 6px;  } 
 
  
   
@@ -739,9 +705,10 @@ form {
                   max-width: 600px;}  
 
 
-  .Testimonials {   width: 140%;
+  .Testimonials {   min-width: 101vw;  
                    padding: 80px;
-                   height:  140vh;  }
+                   height:  140vh; 
+                   }
 
   .Testimonials div p:not(:nth-child(1))  {  font-size: 18px ;
                                              margin: auto 0px;
@@ -770,9 +737,9 @@ form {
  
 .Gallery .container img {   width: 100%; max-width: 250px;  border-radius: 8px;}
 
+/* .Gallery {   min-width: 101vw;  } */
 
-
-.Contact_us {  width: 200%;   height: auto;   }
+.Contact_us {   min-width: 101vw;     height: auto;   }
 
 .Contact_us div .frist {  margin-bottom: 80%; }
 
@@ -781,12 +748,11 @@ form {
 .info i     { margin-left: -250px;      }
   
 .info nav p {  margin-left: -170px;     }
+
+      
+}
   
-  
-}  
 
 @media  (min-width: 1025px) { 
   .landing   { width: 100%; } 
-
-.Contact_us { height: 100%;}    }
-
+.Contact_us { height: 100%;}    }     
