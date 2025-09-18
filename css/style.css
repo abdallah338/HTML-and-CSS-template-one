@@ -437,7 +437,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
   .landing {  background-position: center center;                     
                height:   110vh ;
                width:  100% ;
-              min-width:  125vw ;
+              min-width:  225vw ;
               flex-direction: row ;
               flex-wrap: nowrap;}
  
@@ -773,4 +773,5 @@ form {
 
 @media  (min-width: 1025px) { 
   .landing   { width: 100%; } 
+
 .Contact_us { height: 100%;}    }     
