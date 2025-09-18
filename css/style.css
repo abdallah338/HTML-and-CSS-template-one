@@ -435,7 +435,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
   .landing {  background-position: center center;                     
                height:   110vh ;
                
-              width:  225vw ;
+              width:  155vw ;
               min-width:  125vw ;
               flex-direction: row ;
               flex-wrap: nowrap;}
@@ -576,19 +576,18 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
 
   
 
-.Gallery {  min-width:  120vw ;
-            margin-bottom: 400px;
-            width: 100% ;  
+.Gallery {  width:  120vw ;
+            margin-bottom: 400px;  
             height: auto;
             margin-left: 0;
-            padding: 17px 10px;
-            display: block;}   
+            padding: 17px 160px;
+            display: flex;}   
 
-  .Gallery .container div img {
-                            width: 50vh;
-                            height: 80vh;
-                            margin: 10px;
-                            display: block; }
+  .Gallery .container div img { text-align: center; 
+                                width: 50vh; 
+                                height: 80vh;
+                                margin: 10px 40px;
+                           }
 
     .Gallery .container div:hover p {  
                             display: block; 
@@ -606,16 +605,16 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
                             font-size: 30px; }
 
   .Gallery .frist {
-                position: static ;
-                margin: 0 0 20px 0;
-                padding: 0 20px;
+                position: static ; 
+                margin: 0 0 10px 0;
+                padding: 0 -140px ;
                 font-size: 28px;
                 text-align: center;}
 
    .Contact_us {font-size: 20px; 
                 background-size: cover;      
                 background-image: url(../imgs/infinite-loop-03.jpg);
-                width: 100%; min-width:  118vw ;
+                width:  150vw ;
                 height: 100%;
                 margin-left: 12px;
                 margin-top: -190px;
