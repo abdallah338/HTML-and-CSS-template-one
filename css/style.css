@@ -392,12 +392,12 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
  
 .bars  {       display: flex;  align-content: end; }
 
-.bars i{       font-size: 30px;
+.bars i{       font-size: 50px;
                color: white ;   
                justify-content: center; 
-               padding: 3px 20px;
+               padding: 6px 25px;
                display: flex;
-               bottom :300px ; 
+               bottom :470px ;  
                right: 5%;
                position: relative; 
                border-radius: 2%; } 
@@ -424,9 +424,11 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
     
 @media (max-width: 768px) {  
  
-   body{    width: 80vw;}
+   /* body{    width: 80vw;} */
+   
 
   .container { 
+               display: flex;
               flex-direction: column ;
               flex-wrap: wrap;
               align-items: center;
@@ -434,15 +436,16 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
 
   .landing {  background-position: center center;                     
                height:   110vh ;
-              /* width:  175vw ; */
-                width:  fit-content ;
-              flex-direction: row ;
-              flex-wrap: nowrap;}
+              width:  160vw ;
+                /* width:  fill ; */
+              /* flex-direction: row ; */
+              /* flex-wrap: nowrap; */
+            }
  
             
             
 
-  .landing .container h2{ margin: 10px  auto auto -10px; left: 9%; }
+  .landing .container h2{ margin: 16px  auto auto -10px ; left: 9%;  top: 7%;font-size: 40px; }
    
   .bars{  position: relative; cursor: pointer;}
 
@@ -505,48 +508,53 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
 
 
   .star {      text-align: center;
-                font-size: 38px;
+                
                 margin-right: 50px;
                 padding: 0 20px;
                 line-height: 1.4 ;}
 
   .in{ margin: 0;}
   
+  .top { font-size: 40px;}
+
   .top:not(.in) { margin-left: 80px;  }
 
   .box {     margin: -40px 50px;
-             padding: 20px 53px 15px;
-             font-size: 38px;}
+             padding: 20px 123px 15px;
+            
+            }
 
-  .icons   { margin-right: 150px;
+ .box p, .star p {  font-size: 30px !important;  }
+
+  .icons   { margin-right: 200px;
              color: var(--maincolor);
              font-size: 46px; 
              display: block ; 
              margin-top: auto;
              margin-bottom: 8px;} 
  
-  .buttons { gap: 70px !important; z-index: 100;} 
+   .fa-sharp, .fa-solid {  font-size: 46px !important;}          
+
+  .buttons { gap: 160px !important; z-index: 100;} 
   
 
   div button  {  display: block;  
-                 margin-left:   -10px;
+                 margin-left:   64px;
                  width: 40%;}
 
 
-  .Testimonials { background-size:cover;
-                  background-position: center center;
-                  background-image: url(../imgs/infinite-loop-02.jpg);
-                  /* width: 155vw; */
+  .Testimonials {  
                   width:  fit-content ;
-                  height:100%;
+                  /* height:100%; */
                   margin-left: 0;
                   padding: 40px 100px; }
 
   .Testimonials div div:nth-child(1) {
-    position: static;
-    margin: 0 0 20px 0;
+    /* position: static; */
+    margin: -1200px 0 20px 0;
+ 
     padding: 0;
-    font-size: 20px;
+    font-size: 50px;
     text-align: center; }
 
   .Testimonials img {
@@ -555,6 +563,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
     margin: 10px auto;
     display: block;}
   
+  .Testimonials p {  font-size: 26px !important;}  
 
 .Gallery .photos {position: relative;}
 
@@ -579,8 +588,12 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
             margin-bottom: 400px;  
             height: auto;
             margin-left: 0;
-            padding: 17px 160px;
+           
             display: flex;}   
+ 
+ 
+ .Gallery :not(.frist)          { padding: 17px 160px;  }
+
 
   .Gallery .container div img { text-align: center; 
                                 width: 50vh; 
@@ -593,8 +606,8 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
                             font-family:  "Raleway", sans-serif;
                             margin-top: 23px;
                             height:95% ; 
-                            width: 94%;
-                            margin-left: 8px;    
+                            width: 93%;
+                            margin-left: 9px;    
                             padding: -200px 20px 0;}
 
 .Gallery .container div p{ 
@@ -634,9 +647,9 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
 
    
 
-form {  
+form {     justify-content: center;  
           margin: 60px auto 10px ;
-          width: 90%;}
+          width: 50%;}
 
   input {
             width: 100% ;
@@ -683,13 +696,13 @@ form {
 
 }
 
-@media (min-width: 769px) and (max-width: 1040px) { 
+@media (min-width: 769px) and (max-width: 1024px) { 
   
    
   body { width: 95vw;}
   
 
-  .landing {   width:105%;  }
+  .landing {   width:auto-fill;  }
 
   .landing .container h2 { margin-right: 0;  padding: 0%; top: .5%;  }
     
@@ -703,7 +716,7 @@ form {
   
    
   
-  .box p{ padding: auto 100px ;  }
+  .box p{ padding: auto 100px ; color: #333 !important;  }
   
   .box  { margin: auto 2px auto 6px;  } 
 
@@ -749,11 +762,11 @@ form {
 .Gallery .container > div:nth-of-type(5) { grid-column: 3; margin-top: -200px;}  
 .Gallery .container > div:nth-of-type(6) { grid-column: 1;   margin-top: -400px; }  
  
-.Gallery .container img {   width: 100%; max-width: 250px;  border-radius: 8px;}
+.Gallery .container img {   width: 100%; max-width: 250px;  border-radius: 8px; height: 30vh;}
 
 /* .Gallery {   min-width: 101vw;  } */
 
-.Contact_us {   min-width: 101vw;     height: auto;   }
+.Contact_us {   width:max-content ;     height: auto;   }
 
 .Contact_us div .frist {  margin-bottom: 80%; }
 
@@ -767,6 +780,6 @@ form {
 }
   
 
-@media  (min-width: 1041px) { 
+@media  (min-width: 1025px) { 
   .landing   { width: 100%; } 
 .Contact_us { height: 100%;}    }     
