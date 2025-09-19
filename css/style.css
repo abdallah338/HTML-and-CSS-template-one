@@ -424,7 +424,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
     
 @media (max-width: 768px) {  
  
-   /* body{    width: 80vw;} */
+   body{    width: 80vw;} 
    
 
   .container { 
@@ -782,4 +782,5 @@ form {     justify-content: center;
 
 @media  (min-width: 1025px) { 
   .landing   { width: 100%; } 
+
 .Contact_us { height: 100%;}    }     
