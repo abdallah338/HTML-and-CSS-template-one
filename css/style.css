@@ -711,7 +711,10 @@ form {     justify-content: center;
   
 
   
-   .middle {  width: 100%;}
+   .middle {   display: flex;
+                width:124vw;
+                  padding-right: -90px; 
+                 gap: 2px;}
   
   .box p{ padding: auto 100px ; color: #333 !important;  }
   
@@ -729,9 +732,9 @@ form {     justify-content: center;
                   max-width: 600px;}  
 
 
-  .Testimonials {    width: 100%;  
-                   padding: 40px;
-                   height:  180vh; 
+  .Testimonials {     width:auto-fill !important;  
+                   padding: 240px;
+                   height:  100vh; 
                    }
 
   .Testimonials div p:not(:nth-child(1))  {  font-size: 18px ;
@@ -763,18 +766,19 @@ form {     justify-content: center;
 
  .Gallery {    width:  auto-fill;  }  
 
-.Contact_us {   width:auto-fill;     height: auto;   }
+.Contact_us {   width:auto-fill;     height: 100%; padding: 0; margin-top: 300px; }
 
-.Contact_us div .frist {  margin-bottom: 80%; }
+.Contact_us div .frist {  margin-bottom: 80%;    }
 
 input  {  width: 80%;}
 
- form { margin-right: 300px ;  margin-top: 23%;}
+ form { margin-right: 300px ;  margin-top: 23%;  }
 
 .info i     { margin-left: -250px;      }
   
 .info nav p {  margin-left: -170px;     }
 
+.Message { height: 21vh;}
       
 }
   
