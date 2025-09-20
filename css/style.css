@@ -397,8 +397,8 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
                justify-content: center; 
                padding: 6px 25px;
                display: flex;
-               bottom :400px ;  
-               right: 5%;
+               bottom :250px ;  
+               right: 8%;
                position: relative; 
                border-radius: 2%; } 
    
@@ -437,7 +437,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
   .landing {  
            background-position: center center;                     
                height:   110vh ;
-              width:  280vw ; 
+              width:  378vw ; 
             }
  
             
@@ -474,9 +474,9 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
                       color: gray;         
                       text-decoration: none;  
                       display: block;
-                      font-size: 20px;
+                      font-size: 30px;
                       font-family: "Raleway", sans-serif;
-                      padding: 10px 10px 10px 270px;}
+                      padding: 10px 0px 10px 240px;}
 
 .bars ul li a:hover { color: var(--secandarycolor);   background: rgba(0,0,0,0.05);  }
 
@@ -499,16 +499,16 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
 .middle {         display: flex; 
                   text-align: center;
                   flex-direction: column;
-                  margin: 20px 0 ;
-                  min-width:  80vw ;
-                  padding: 0 10px 0 10px; }
+                  margin: 30px 0 ;
+                  /* width:  20vw ; */
+                  padding: 0 10px 0 70px !important; }
  
 
 
   .star {      text-align: center;
-                margin-bottom: -160px;
+                margin-bottom: -6100px;
                 margin-right: 50px;
-                padding: 0 20px;
+                padding: 0 200px;
                 line-height: 1.4 ;}
 
   .in{ margin: 0;}
@@ -517,9 +517,8 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
 
   .top:not(.in) { margin-left: 80px;  }
 
-  .box {     margin: -80px 50px;
-             padding: 20px 123px 15px;
-            
+  .box {     margin: -180px 50px;
+             padding: 20px 223px ; 
             }
 
  .box p, .star p {  font-size: 30px !important; color:  rgb(36, 36, 36) !important;  }
@@ -542,9 +541,9 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
 
 
   .Testimonials {  
-                  width:  fit-content ;
-                  /* height:100%; */
-                  margin-left: 0;
+                  /* width:  ; */
+                   height:100%;  
+                  /* margin-left: 0; */
                   padding: 40px 600px; }
 
   .Testimonials div div:nth-child(1) {
@@ -557,27 +556,9 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
   .Testimonials img {
     width: 80px;
     height: 80px;
-    margin: 10px auto;
-    display: block;}
+    margin: 10px auto; }
   
-  .Testimonials p {  font-size: 30px !important; }  
-
-.Gallery .photos {position: relative;}
-
-.Gallery .photos p {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(44, 1, 38, 0.425);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    opacity: 0;
-    transition:  0.4s;}
-
-  .Gallery .photos:hover p {opacity: 1; }
+  .Testimonials p {  font-size: 40px !important; }  
 
   
 
@@ -585,62 +566,69 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
             margin-bottom: 400px;  
             height: auto;
             margin-left: 0;
-            padding: 17px 160px; 
+            /* padding: 17px 160px;  */
             display: flex;}   
  
  
-  .Gallery .frist {  padding: auto -1400px ; font-size: 40px !important;}
+  .Gallery .frist {  
+                font-size: 50px;
+                position: relative; 
+                margin: 0 -21px 5px ;
+                padding: auto -80%  ; 
+            
+              }
 
 
-  .Gallery .container div img { text-align: center; 
-                                width: 50vh; 
-                                height: 80vh;
-                                margin: 10px 40px;
+.Gallery .photos {position: relative;}
+
+.Gallery .photos p {
+  
+    top: 0;
+    left: 0; 
+  }
+ 
+
+  .Gallery .container div img { 
+                                border-radius: 12px;
+                                width: 150vh; 
+                                height: 90vh;
+                                margin: 50px 40px;
                            }
 
-    .Gallery .container div:hover p {  
-                            display: block; 
+    .Gallery .container div:hover p {   
                             font-family:  "Raleway", sans-serif;
-                            margin-top: 23px;
-                            height:95% ; 
-                            width: 93%;
-                            margin-left: 9px;    
+                            margin-top: 46px;
+                            height:83% ; 
+                            width: 91%;
+                            margin-left: 36px;    
                             padding: -200px 20px 0;}
 
-.Gallery .container div p{ 
+.Gallery .container div p{    
+                            border-radius: 12px;
+                                width: 150vh; 
+                                height: 90vh;
                             text-align: center ; 
                             padding:0  50% 80px 10% ;
                             font-weight: 250 ;
-                            font-size: 30px; }
+                            font-size: 40px; }
 
-  .Gallery .frist {
-                position: static ; 
-                margin: 0 0 10px 0;
-                padding: 0 -140px ;
-                font-size: 28px;
-                text-align: center;}
 
-   .Contact_us {font-size: 20px; 
-                background-size: cover;      
-                background-image: url(../imgs/infinite-loop-03.jpg);
-                /* width:  170vw ; */
-                width:  auto ;
-                height: 100%;
-                margin-left: 12px;
+   .Contact_us { 
+                width:  auto ; 
+                height: 390vh ; 
                 margin-top: -190px;
-                padding: 20px 10px;
-                display: block;
+                padding: 20px 70px; 
                 text-align: center;}
  
-.Contact_us div .frist{  
+.Contact_us div .frist{   
                          margin:50px auto 20px ;
                          padding: 0 34px;
-                         font-size: 29px ; 
+                         font-size: 49px ; 
                          font-weight: 200;
                          text-align: center ;
                          position: static ;}
 
-.Contact_us div .frist p{ font-size: 20px ; margin: auto -30px; line-height: 50px ; }
+.Contact_us div .frist p{ font-size: 30px !important; margin: auto -30px; line-height: 50px ; }
 
    
 
@@ -671,13 +659,13 @@ form {     justify-content: center;
             position: static ;
             text-align: center ;}
 
-  .info i {
-              margin: 4px 0px 0 -250px ;
-              font-size: 44px;}
+  .info i {   row-gap: 400px !important;
+              margin: 4px 0px 0 -350px ;
+              font-size: 74px !important;}
 
 .info nav p { 
-              margin: 30px 0px 0 -70px;
-              font-size: 28px ; }
+              margin: 30px 0px 0 60px;
+              font-size: 48px ; }
  .info nav  {
               margin-left: 70px ;
               margin-top: 60px ; }
@@ -685,7 +673,7 @@ form {     justify-content: center;
               margin: 400px auto ;
               font-size: 36px !important;
               text-align: center ;
-              margin-bottom: 20px ;
+          
               margin-left: 0 ;
               margin-right: 0  }
 }
