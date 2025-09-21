@@ -534,7 +534,7 @@ input  {  width: 80%;}
   .landing {  
            background-position: center center;                     
                height:   110vh ;
-              width:  378vw ; 
+                    width:  208vw ; 
             }
  
             
@@ -776,4 +776,5 @@ form {     justify-content: center;
               margin-right: 0  }
 }
 @media (min-width: 601px)  {  .bars {display: none; } 
+
 }
