@@ -397,7 +397,7 @@ form {   margin-right: 280px;margin-left: 1px;   margin-top: 320px;}
                justify-content: center; 
                padding: 6px 25px;
                display: flex;
-               bottom :200px ;  
+               bottom :260px ;  
                right: 8%;
                position: relative; 
                border-radius: 2%; } 
@@ -633,7 +633,7 @@ input  {  width: 80%;}
   
 
   div button  {  display: block;  
-                 margin-left:   64px;
+                 margin-left:   100px;
                  width: 40%;}
 
 
@@ -670,7 +670,7 @@ input  {  width: 80%;}
   .Gallery .frist {  
                 font-size: 50px;
                 position: relative; 
-                margin: 0 -21px 5px ;
+                margin: 0 -21px -25px ;
                 padding: auto -80%  ; 
             
               }
@@ -702,8 +702,8 @@ input  {  width: 80%;}
 
 .Gallery .container div p{    
                             border-radius: 12px;
-                                width: 150vh; 
-                                height: 90vh;
+                                width: 157vh; 
+                                height: 110vh;
                             text-align: center ; 
                             padding:0  50% 80px 10% ;
                             font-weight: 250 ;
@@ -713,7 +713,7 @@ input  {  width: 80%;}
    .Contact_us { 
                 width:  380vw ;   
                   
-                height: 390vh ; 
+                height: 310vh ; 
                 margin-top: -190px;
                 padding: 20px 70px; 
                 text-align: center;}
@@ -726,13 +726,13 @@ input  {  width: 80%;}
                          text-align: center ;
                          position: static ;}
 
-.Contact_us div .frist p{ font-size: 30px !important; margin: auto -30px; line-height: 50px ; }
+.Contact_us div .frist p{ font-size: 40px !important; margin: auto -30px; line-height: 50px ; }
 
    
 
 form {     justify-content: center;  
-          margin: 60px auto 10px ;
-          width: 50%;}
+          margin: 60px auto 10px ;height: ;
+          width: 60%;}
 
   input {
             width: 100% ;
@@ -776,4 +776,5 @@ form {     justify-content: center;
               margin-right: 0  }
 }
 @media (min-width: 601px)  {  .bars {display: none; } 
+
 }
