@@ -534,7 +534,7 @@ input  {  width: 80%;}
   .landing {  
            background-position: center center;                     
                height:   110vh ;
-                    width:  208vw ; 
+              width:  400vw ; 
             }
  
             
@@ -597,7 +597,7 @@ input  {  width: 80%;}
                   text-align: center;
                   flex-direction: column;
                   margin: 30px 0 ;
-                  width:  20vw ;
+                  width:  1vw !important;
                   padding: 0 10px 0 70px !important; }
  
 
@@ -638,10 +638,10 @@ input  {  width: 80%;}
 
 
   .Testimonials {  
-                  /* width:  ; */
+                   width: 392vw !important;  
                    height:100%;  
                   /* margin-left: 0; */
-                  padding: 40px 600px; }
+                  padding: 40px 40px; }
 
   .Testimonials div div:nth-child(1) {
     position: static;
@@ -659,7 +659,7 @@ input  {  width: 80%;}
 
   
 
-.Gallery {  width: auto-fill ;
+.Gallery {  width: 100vw ;
             margin-bottom: 400px;  
             height: auto;
             margin-left: 0;
@@ -711,8 +711,8 @@ input  {  width: 80%;}
 
 
    .Contact_us { 
-                /* width:  370vw ;  */
-                width:  auto ; 
+                width:  380vw ;   
+                  
                 height: 390vh ; 
                 margin-top: -190px;
                 padding: 20px 70px; 
@@ -776,5 +776,4 @@ form {     justify-content: center;
               margin-right: 0  }
 }
 @media (min-width: 601px)  {  .bars {display: none; } 
-
 }
